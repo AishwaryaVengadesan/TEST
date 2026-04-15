@@ -15,7 +15,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "react-native-barcode-builder": "^2.0.0",
     "@code-push-next/react-native-code-push": "^10.4.1",
     "@dev-amirzubair/react-native-voice": "^1.0.4",
     "@react-native-async-storage/async-storage": "^2.2.0",
@@ -109,6 +108,7 @@
     "react-native-permissions": "^5.4.1",
     "react-native-progress": "^5.0.1",
     "react-native-reanimated": "^3.15.0",
+    "react-native-reanimated-carousel": "^3.5.1",
     "react-native-safe-area-context": "^5.6.1",
     "react-native-safe-area-view": "^1.1.1",
     "react-native-scratch": "git+https://github.com/yannou788/react-native-scratch.git",
@@ -116,10 +116,11 @@
     "react-native-sha256": "^1.4.10",
     "react-native-share": "12.2.5",
     "react-native-shimmer-placeholder": "^2.0.9",
-    "react-native-reanimated-carousel": "^3.5.1",
+    "react-native-snap-carousel": "^3.9.1",
     "react-native-spinkit": "^1.5.1",
     "react-native-store-review": "^0.4.3",
-    "react-native-svg": "^15.12.0",
+    "react-native-svg": "^15.15.4",
+    "react-native-svg-barcode": "^0.1.1",
     "react-native-swiper-flatlist": "^3.2.5",
     "react-native-switch": "^1.5.1",
     "react-native-text-ticker": "^1.15.0",
@@ -173,10 +174,6 @@
       "react-native": "*"
     }
   },
-  "resolutions": {
-  "glob": "^9.0.0",
-  "node-fetch": "^2.6.7"
-},
   "engines": {
     "node": ">=18"
   }
